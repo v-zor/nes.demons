@@ -1,0 +1,10 @@
+CC=gcc
+CFLAGS=-O3 -std=c99
+
+all: nesemu 
+
+bton: bin.o gui.o ignores.o nonignores.o nesemu.o
+	$(CC) $(CFLAGS) -o nesemu bin.o gui.o ignores.o nonignores.o nesemu.o -lpthread 
+
+clean:
+	rm -f *.o bton

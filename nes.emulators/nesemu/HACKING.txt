@@ -1,0 +1,8 @@
+
+Hacking Ideas - what you can doe with nesemu
+
+. nes assembler (6502 processor) or machine code can be translated to e.g. 
+ super nes assembler (65c816 processor) so it can be optimized to what 
+ UNIX/Windows/Linux/POSIX systems call ELF (extended library format) assembler
+output code (such as binutils's gas or gcc).
+

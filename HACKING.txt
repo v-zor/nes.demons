@@ -1,0 +1,1 @@
+Try to run nesemu on graphical terminal (termcap terminfo)
